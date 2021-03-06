@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>job application</title>
+	<style>
+		body
+		{
+			background-color: magenta;
+            background-image: url(https://thumbs.dreamstime.com/b/christmas-banner-red-background-lights-sparkle-53818564.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+		}
+		fieldset
+		{
+			border: 3px solid yellow;
+			border-radius: 0px 20px 0px 20px;
+            background-color: rgba(0,0,0,0.5);
+            color: yellow;
+            margin: 10px;
+		}
+		fieldset legend
+		{
+			border: 3px solid red;
+			border-radius: inherit;
+			text-align-last: center;
+            margin: 10px;
+            padding: 10px;
+		}
+		table 
+		{
+			width: 100%;
+		}
+		h1
+		{
+			text-align-last: center;
+			color: cyan;
+		}
+		.abc
+		{
+		 
+			height: 40px;
+			width: 200px;
+			font-size: 20px;
+			background:linear-gradient(50deg,blue,green,red);
+			color: white;
+		}
+		/*.xyz
+		{
+			background-color: yellow;
+		}*/
+		input[type=submit]
+		{
+			background:linear-gradient(50deg,blue,green,red);
+			color: white;
+			width: 80px;
+			height: 30px;
+			border-radius: 30px;
+            outline: none;
+		}
+		input[type=reset]
+		{
+			background:linear-gradient(50deg,blue,green,red);
+			color: white;
+			width: 80px;
+			height: 30px;
+			border-radius: 30px;
+            outline: none;
+		}
+		table input
+		{
+			height: 20px;
+			border-radius: 10px;
+            outline: none;
+		}
+		table input[type=date]
+		{
+			width: 175px;
+			height: 20px;
+			border-radius: 10px;
+            outline: none;
+		}
+		textarea
+		{
+			border-radius: 20px;
+            outline: none;
+		}
+		select
+		{
+			width:180px;
+			height: 30px;
+			border-radius: 10px;
+            outline: none;
+		}
+		table tr
+		{
+			font-size: 20px;
+	        font-family:  Didot;
+            outline: none;
+
+		}
+	</style>
+</head>
+<body>
+	<h1>ONLINE JOB REGISTRATION</h1>
+    <div>
+    	<form>
+    		<fieldset  class="xyz">
+    			<legend class="abc">Personal Information</legend>
+    			<table>
+    			<tr>
+    				<td><label>first name</label></td>
+    				<td><input type="text"></td>
+    				<td><label>middle name</label></td>
+    				<td><input type="text"></td>
+    				<td><label>last name</label></td>
+    				<td><input type="text"></td>
+    			</tr>
+    			<tr>
+    				<td><label>father name</label></td>
+    				<td><input type="text"></td>
+    				<td><label>mother name</label></td>
+    				<td><input type="text"></td>
+    			</tr>
+    			<tr>
+    					<td><label>Current Address</label></td>
+    					<td><textarea cols="22" rows="4"></textarea></td>
+    					<td><label>Permenent Address </label></td>
+    					<td><textarea cols="22" rows="4"></textarea></td>
+    		   </tr>
+    		   <tr><td><h4>Phone Numbers:</h4></td></tr>
+    		   <tr>
+    		   	<td><label>Mobail Number</label></td>
+    		   	<td><input type="no"></td>
+    		   	<td><label>TelNumber</label></td>
+    		   	<td><input type="no"></td>
+    		   </tr>
+    		   <tr>
+    		   	<td><label > Date Of Birth</label></td>
+    		   	<td><input type="date"></td>
+    		   </tr>
+    		   <tr>
+    		   	<td><label>Email ID</label></td>
+    		   	<td><input type="Email" name=""></td>
+    		   </tr>
+    		   <tr>
+    		   	<td colspan="2"><label>Gender</label></td>
+    		   	<td><input type="radio" name="r1">Male</td>
+    		   	<td><input type="radio" name="r1">female</td>
+    		   	<td><input type="radio" name="r1">others</td>
+    		   </tr>
+    		   <tr>
+    		   	<td colspan="2"><label>Hobbies</label></td>
+    		   	<td><input type="checkbox">Eating</td>
+    		   	<td><input type="checkbox">Chatting</td>
+    		   	<td><input type="checkbox" >Sleeping</td>
+    		   </tr>
+    		   <tr>
+    		   	<td><label>Nationality</label></td>
+    		   <td>	<select>
+    		   		<option>..select..</option>
+    		   		<option>Indian</option>
+    		   		<option>American</option>
+    		   		<option>Russian</option>
+    		   	</select></td>
+    		   </tr>
+    		   <tr>
+    		   	<td colspan="2"><label>Marita Status</label></td>
+    		    <td><input type="radio" name="r1">Married</td>
+    		   	<td><input type="radio" name="r1">unMarrid</td>
+    		   </tr>
+    		   <tr>
+    		   	<td><label>Pancard</label></td>
+    		   	<td><input type="no"></td>
+    		   	<td><label>Adharcard</label></td>
+    		   	<td><input type="no"></td>
+    		   </tr>
+    		    <tr>
+    		   	<td><label>Highest Qualifications</label></td>
+    		   	<td><input type="text"></td>
+    		   	<td><label>Year Of Passing</label></td>
+    		   	<td><input type="date"></td>
+    		   </tr>
+    		</table>
+    		</fieldset>
+    	</form>
+    </div>
+    <div>
+    	<form>
+    		<fieldset  class="xyz">
+    			<legend class="abc">Education Details</legend>
+    			<table cellspacing="10px">
+    				<tr align="left">
+    					<th>S.No</th>
+    					<th>Qualification</th>
+    					<th>Institute/University</th>
+    					<th>Year Of Passing</th>
+    					<th>Marks(%)</th>
+    				</tr>
+    			<tr>
+    				<td>1</td>
+    				<td><input type="text"></td>
+    				<td><input type="text"></td>
+    				<td><input type="date"></td>
+    				<td><input type="no"></td>
+    			</tr>
+    			<tr>
+    				<td>2</td>
+    				<td><input type="text"></td>
+    				<td><input type="text"></td>
+    				<td><input type="date"></td>
+    				<td><input type="no"></td>
+    			</tr>
+    			<tr>
+    				<td>3</td>
+    				<td><input type="text"></td>
+    				<td><input type="text"></td>
+    				<td><input type="date"></td>
+    				<td><input type="no"></td>
+    			</tr>
+    			</table>
+    		</fieldset>
+    	</form>
+    </div>
+    <div>
+    	<form>
+    		<fieldset  class="xyz">
+    			<legend class="abc">Work Experience</legend>
+    			<table cellspacing="10px">
+    				<tr align="left">
+    					<th>S.No</th>
+    					<th>company</th>
+    					<th>Role/Work</th>
+    					<th>Experiance</th>
+    					<th>From Date</th>
+    					<th>To Date</th>
+    				</tr>
+    			<tr>
+    				<td>1</td>
+    				<td><textarea cols="22" rows="4"></textarea></td>
+    				<td><textarea cols="22" rows="4"></textarea></td>
+    				
+    				<td><input type="text"></td>
+    				<td><input type="date"></td>
+    				<td><input type="date"></td>
+    			</tr>
+    			<tr>
+    				<td>2</td>
+    				<td><textarea cols="22" rows="4"></textarea></td>
+    				<td><textarea cols="22" rows="4"></textarea></td>
+    				
+    				<td><input type="text"></td>
+    				<td><input type="date"></td>
+    				<td><input type="date"></td>
+    			</tr>
+    			<tr>
+    				<td>3</td>
+    				<td><textarea cols="22" rows="4"></textarea></td>
+    				<td><textarea cols="22" rows="4"></textarea></td>
+    				<td><input type="text"></td>
+    				<td><input type="date"></td>
+    				<td><input type="date"></td>
+    			</tr>
+    			</table>
+    		</fieldset>
+    	</form>
+    </div>
+    <div>
+    	<form>
+    		<fieldset  class="xyz">
+    			<legend class="abc">Other Details</legend>
+    			<table>
+    			 <tr>
+    		   	<td><label>Type Of Employee</label></td>
+    		   	<td><input type="radio" name="r1">Perminant</td>
+    		   	<td><input type="radio" name="r1">Contract</td>
+    		   	<td><input type="radio" name="r1">other</td>
+    		   </tr>
+    		   <tr>
+    		   	<td><label>Are You ready to Relocate</label></td>
+    		   	<td><input type="radio" name="r1">Yes</td>
+    		   	<td><input type="radio" name="r1">No</td>
+    		   </tr>
+    		   <tr>
+    		   	<td><input type="checkbox"></td>
+    		   <td colspan="3">I am here bye declaring the aboue information is true according my knowledge</td>
+    		</tr>
+    		<tr>
+    			<td colspan="2" align="right" class="fgh"><input type="submit"></td>
+    			<td align="left" class="fgh"><input type="Reset"></td>
+    		</tr>
+    		   </table>
+    		</fieldset>
+    	</form>
+    </div>
+
+</body>
+</html>
